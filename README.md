@@ -1,7 +1,7 @@
 # Download
 
 ```bash
-$ curl -fLo ./measurement.h https://raw.githubusercontent.com/aben20807/measurement.h/measurement.h
+$ curl -fLo ./measurement.h https://raw.githubusercontent.com/aben20807/measurement.h/master/measurement.h
 ```
 
 # Usage
