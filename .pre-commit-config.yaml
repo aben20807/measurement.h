@@ -1,0 +1,9 @@
+repos:
+-   repo: local
+    hooks:
+    -   id: clang-format
+        name: Google C Family Code Style
+        description: Formats code in Google's C family codestyle.
+        entry: ./hooks/clang-format.hook.sh
+        language: script
+        files: \.(c|cc|cxx|cpp|cu|h|hpp|hxx|cuh|proto)$
