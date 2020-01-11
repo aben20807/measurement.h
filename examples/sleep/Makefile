@@ -1,4 +1,4 @@
-CXX := g++-8
+CXX := g++
 CXXFLAGS := -Wall
 
 TARGET := sleep.out
