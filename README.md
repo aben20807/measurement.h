@@ -34,13 +34,13 @@ Unit::DAY
 + C
 
 ```c
-NANOSECOND
-MICROSECOND
-MILLISECOND
-SECOND
-MINUTE
-HOUR
-DAY
+MEASUREMENT_NANOSECOND
+MEASUREMENT_MICROSECOND
+MEASUREMENT_MILLISECOND
+MEASUREMENT_SECOND
+MEASUREMENT_MINUTE
+MEASUREMENT_HOUR
+MEASUREMENT_DAY
 ```
 
 ## Functions
@@ -59,6 +59,9 @@ time_interval_t get_interval(timestamp_t before, Unit unit=Unit::SECOND)
 timestamp_t get_timestamp()
 time_interval_t get_interval(timestamp_t before, timestamp_t after, Unit unit)
 ```
+
++ Note:
+  + If `after` is passed as `-1` then it means to get the interval from `before` to now.
 
 # License
 
